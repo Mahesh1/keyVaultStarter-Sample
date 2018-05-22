@@ -1,0 +1,15 @@
+{
+  "name": "maheshkvdemo",
+  "version": "1.0.0",
+  "description": "app using key vault in azure sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mahesh karajgi",
+  "license": "ISC",
+  "dependencies": {
+    "azure-keyvault": "^0.11.0",
+    "adal-node": "^0.1.22"
+  }
+}
