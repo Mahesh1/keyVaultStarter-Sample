@@ -17,7 +17,7 @@ var authenticator = function (challenge, callback) {
                 return callback(null, authorizationValue);
             });
 };
-
+  
 //create credentials using authenticator object above then create client using credentials object
 var credentials = new KeyVault.KeyVaultCredentials(authenticator);
 var client = new KeyVault.KeyVaultClient(credentials);
