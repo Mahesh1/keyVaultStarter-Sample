@@ -5,7 +5,7 @@ var AuthenticationContext = require('adal-node').AuthenticationContext;
 
 var clientID = ""; //get the client id or app id from the portal
 var clientSecret = ""; //get the secret from the portal. create a key for the registered app
-var vaultUri = "https://kvwbg1.vault.azure.net/secrets/passphrase/f58f9fa94430479ba1ed1b7e330e4605"; //get the key vault URL form the portal
+var vaultUri = ""; //get the key vault URL form the portal
 
 //authenticate using clientID & secret
 var authenticator = function (challenge, callback) {  
